@@ -1,0 +1,26 @@
+{
+  "name": "nbachamp",
+  "version": "1.0.0",
+  "description": "App of NbaChamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FitzJay/NBACHAMP.git"
+  },
+  "keywords": [
+    "nba",
+    "champ"
+  ],
+  "author": "Tim, Sam, Eli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FitzJay/NBACHAMP/issues"
+  },
+  "homepage": "https://github.com/FitzJay/NBACHAMP#readme",
+  "dependencies": {
+    "sequelize": "^4.4.2"
+  }
+}

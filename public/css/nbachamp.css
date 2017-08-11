@@ -1,0 +1,20 @@
+
+.brand-logo {
+    font-family: 'Bungee Shade', cursive;
+    margin-left: 50px;
+}
+.nav-wrapper {
+    background-color:  #006BB6; 
+}
+
+body {
+    background-image: url(../images/nbabackground.jpg);
+}
+
+.carousel .carousel-item {
+      width: 175px;
+    }
+
+.versus {
+    margin-right: auto;
+}

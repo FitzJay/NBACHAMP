@@ -1,98 +1,134 @@
 <div class="container myContainer">
     <div class="jumbotron">
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="#!">Tim</a></li>
+            <li class="divider"></li>
+            <li><a href="#!">Sam</a></li>
+            <li class="divider"></li>
+            <li><a href="#!">Eli</a></li>
+        </ul>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">NBA CHAMP</a>
+                <ul class="right hide-on-med-and-down">
+                    <!-- Dropdown Trigger -->
+                    <li><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="material-icons right">contacts</i></a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col xs6">
+                <div class="carousel" id="awayCarousel">
+                    <a id="Blazers" class="carousel-item" href="#Blazers!"><img src="./images/NBA_Logos/Blazers.png"></a>
+                    <a id="Bucks" class="carousel-item" href="#Bucks!"><img src="./images/NBA_Logos/Bucks.png"></a>
+                    <a id="Bulls" class="carousel-item" href="#Bulls!"><img src="./images/NBA_Logos/Bulls.png"></a>
+                    <a id="Cavaliers" class="carousel-item" href="#Cavaliers!"><img src="./images/NBA_Logos/Cavaliers.png"></a>
+                    <a id="Celtics" class="carousel-item" href="#Celtics!"><img src="./images/NBA_Logos/Celtics.png"></a>
+                    <a id="Clippers" class="carousel-item" href="#Clippers!"><img src="./images/NBA_Logos/Clippers.png"></a>
+                    <a id="Grizzlies" class="carousel-item" href="#Grizzlies!"><img src="./images/NBA_Logos/Grizzlies.png"></a>
+                    <a id="Hawks" class="carousel-item" href="#Hawks!"><img src="./images/NBA_Logos/Hawks.png"></a>
+                    <a id="Heat" class="carousel-item" href="#Heat!"><img src="./images/NBA_Logos/Heat.png"></a>
+                    <a id="Hornets" class="carousel-item" href="#Hornets!"><img src="./images/NBA_Logos/Hornets.png"></a>
+                    <a id="Jazz" class="carousel-item" href="#Jazz!"><img src="./images/NBA_Logos/Jazz.png"></a>
+                    <a id="Kings" class="carousel-item" href="#Kings!"><img src="./images/NBA_Logos/Kings.png"></a>
+                    <a id="Knicks" class="carousel-item" href="#Knicks!"><img src="./images/NBA_Logos/Knicks.png"></a>
+                    <a id="Lakers" class="carousel-item" href="#Lakers!"><img src="./images/NBA_Logos/Lakers.png"></a>
+                    <a id="Magic" class="carousel-item" href="#Magic!"><img src="./images/NBA_Logos/Magic.png"></a>
+                    <a id="Mavericks" class="carousel-item" href="#Mavericks!"><img src="./images/NBA_Logos/Mavericks.png"></a>
+                    <a id="Nets" class="carousel-item" href="#Nets!"><img src="./images/NBA_Logos/Nets.png"></a>
+                    <a id="Nuggets" class="carousel-item" href="#Nuggets!"><img src="./images/NBA_Logos/Nuggets.png"></a>
+                    <a id="Pacers" class="carousel-item" href="#Pacers!"><img src="./images/NBA_Logos/Pacers.png"></a>
+                    <a id="Pelicans" class="carousel-item" href="#Pelicans!"><img src="./images/NBA_Logos/Pelicans.png"></a>
+                    <a id="Pistons" class="carousel-item" href="#Pistons!"><img src="./images/NBA_Logos/Pistons.png"></a>
+                    <a id="Raptors" class="carousel-item" href="#Raptors!"><img src="./images/NBA_Logos/Raptors.png"></a>
+                    <a id="Rockets" class="carousel-item" href="#Rockets!"><img src="./images/NBA_Logos/Rockets.png"></a>
+                    <a id="Sixers" class="carousel-item" href="#Sixers!"><img src="./images/NBA_Logos/Sixers.png"></a>
+                    <a id="Spurs" class="carousel-item" href="#Spurs!"><img src="./images/NBA_Logos/Spurs.png"></a>
+                    <a id="Suns" class="carousel-item" href="#Suns!"><img src="./images/NBA_Logos/Suns.png"></a>
+                    <a id="Thunder" class="carousel-item" href="#Thunder!"><img src="./images/NBA_Logos/Thunder.png"></a>
+                    <a id="Twolves" class="carousel-item" href="#Twolves!"><img src="./images/NBA_Logos/Twolves.png"></a>
+                    <a id="Warriors" class="carousel-item" href="#Warriors!"><img src="./images/NBA_Logos/Warriors.png"></a>
+                    <a id="Wizards" class="carousel-item" href="#Wizards!"><img src="./images/NBA_Logos/Wizards.png"></a>
+                    <a id="East" class="carousel-item" href="#East!"><img src="./images/NBA_Logos/East.png"></a>
+                    <a id="West" class="carousel-item" href="#West!"><img src="./images/NBA_Logos/West.png"></a>
+                </div>
+            </div>
+            <div class="col xs6">
+                <div class="card blue-grey darken-1">
+                    <div class="card-content white-text">
+                        <p id="awayTeamText">away team</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+        <div class="col xs6">
+        <div>
+            <img id="vsImage" class="versus" src="./images/NBA_Logos/package.png">
+        </div>
+        </div>
+        <div class="col xs6">
+        <div>
+            <div class="card blue-grey darken-1">
+                    <div class="card-content white-text">
+                        <p id="winnerText">{{money}}</p>
+                    </div>
+                </div>
+        </div>
+        </div>
+        </div>
 
 
-
-<ul id="dropdown1" class="dropdown-content">
-    <li><a href="#!">Tim</a></li>
-    <li class="divider"></li>
-    <li><a href="#!">Sam</a></li>
-    <li class="divider"></li>
-    <li><a href="#!">Eli</a></li>
-  </ul>
-  <nav>
-    <div class="nav-wrapper">
-    <a href="#!" class="brand-logo">NBA CHAMP</a>
-    <ul class="right hide-on-med-and-down">
-    
-      <!-- Dropdown Trigger -->
-      <li><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="material-icons right">contacts</i></a></li>
-    </ul>
+        <div class="row">
+            <div class="col xs6">
+                <div class="carousel" id="homeCarousel">
+                    <a id="Blazers" class="carousel-item" href="#Blazers!"><img src="./images/NBA_Logos/Blazers.png"></a>
+                    <a id="Bucks" class="carousel-item" href="#Bucks!"><img src="./images/NBA_Logos/Bucks.png"></a>
+                    <a id="Bulls" class="carousel-item" href="#Bulls!"><img src="./images/NBA_Logos/Bulls.png"></a>
+                    <a id="Cavaliers" class="carousel-item" href="#Cavaliers!"><img src="./images/NBA_Logos/Cavaliers.png"></a>
+                    <a id="Celtics" class="carousel-item" href="#Celtics!"><img src="./images/NBA_Logos/Celtics.png"></a>
+                    <a id="Clippers" class="carousel-item" href="#Clippers!"><img src="./images/NBA_Logos/Clippers.png"></a>
+                    <a id="Grizzlies" class="carousel-item" href="#Grizzlies!"><img src="./images/NBA_Logos/Grizzlies.png"></a>
+                    <a id="Hawks" class="carousel-item" href="#Hawks!"><img src="./images/NBA_Logos/Hawks.png"></a>
+                    <a id="Heat" class="carousel-item" href="#Heat!"><img src="./images/NBA_Logos/Heat.png"></a>
+                    <a id="Hornets" class="carousel-item" href="#Hornets!"><img src="./images/NBA_Logos/Hornets.png"></a>
+                    <a id="Jazz" class="carousel-item" href="#Jazz!"><img src="./images/NBA_Logos/Jazz.png"></a>
+                    <a id="Kings" class="carousel-item" href="#Kings!"><img src="./images/NBA_Logos/Kings.png"></a>
+                    <a id="Knicks" class="carousel-item" href="#Knicks!"><img src="./images/NBA_Logos/Knicks.png"></a>
+                    <a id="Lakers" class="carousel-item" href="#Lakers!"><img src="./images/NBA_Logos/Lakers.png"></a>
+                    <a id="Magic" class="carousel-item" href="#Magic!"><img src="./images/NBA_Logos/Magic.png"></a>
+                    <a id="Mavericks" class="carousel-item" href="#Mavericks!"><img src="./images/NBA_Logos/Mavericks.png"></a>
+                    <a id="Nets" class="carousel-item" href="#Nets!"><img src="./images/NBA_Logos/Nets.png"></a>
+                    <a id="Nuggets" class="carousel-item" href="#Nuggets!"><img src="./images/NBA_Logos/Nuggets.png"></a>
+                    <a id="Pacers" class="carousel-item" href="#Pacers!"><img src="./images/NBA_Logos/Pacers.png"></a>
+                    <a id="Pelicans" class="carousel-item" href="#Pelicans!"><img src="./images/NBA_Logos/Pelicans.png"></a>
+                    <a id="Pistons" class="carousel-item" href="#Pistons!"><img src="./images/NBA_Logos/Pistons.png"></a>
+                    <a id="Raptors" class="carousel-item" href="#Raptors!"><img src="./images/NBA_Logos/Raptors.png"></a>
+                    <a id="Rockets" class="carousel-item" href="#Rockets!"><img src="./images/NBA_Logos/Rockets.png"></a>
+                    <a id="Sixers" class="carousel-item" href="#Sixers!"><img src="./images/NBA_Logos/Sixers.png"></a>
+                    <a id="Spurs" class="carousel-item" href="#Spurs!"><img src="./images/NBA_Logos/Spurs.png"></a>
+                    <a id="Suns" class="carousel-item" href="#Suns!"><img src="./images/NBA_Logos/Suns.png"></a>
+                    <a id="Thunder" class="carousel-item" href="#Thunder!"><img src="./images/NBA_Logos/Thunder.png"></a>
+                    <a id="Twolves" class="carousel-item" href="#Twolves!"><img src="./images/NBA_Logos/Twolves.png"></a>
+                    <a id="Warriors" class="carousel-item" href="#Warriors!"><img src="./images/NBA_Logos/Warriors.png"></a>
+                    <a id="Wizards" class="carousel-item" href="#Wizards!"><img src="./images/NBA_Logos/Wizards.png"></a>
+                    <a id="East" class="carousel-item" href="#East!"><img src="./images/NBA_Logos/East.png"></a>
+                    <a id="West" class="carousel-item" href="#West!"><img src="./images/NBA_Logos/West.png"></a>
+                </div>
+            </div>
+            <div class="col xs6">
+                <div class="card blue-grey darken-1">
+                    <div class="card-content white-text">
+                        <p id="homeTeamText">home team</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <form action="/" method="POST" class="myTitle">
+                    <input type="text" name="aTeam"><br>
+                    <input type="text" name="hTeam"><br>
+                    <button type="submit">Submit</button>
+                </form>
     </div>
-  </nav> 
-  <!-- <div class="row"> -->
-    <div class="carousel" id="awayCarousel">
-         <a id="Blazers" class="carousel-item" href="#Blazers!"><img src="./images/NBA_Logos/Blazers.png"></a>
-        <a id="Bucks" class="carousel-item" href="#Bucks!"><img src="./images/NBA_Logos/Bucks.png"></a>
-        <a id="Bulls" class="carousel-item" href="#Bulls!"><img src="./images/NBA_Logos/Bulls.png"></a>
-        <a id="Cavaliers" class="carousel-item" href="#Cavaliers!"><img src="./images/NBA_Logos/Cavaliers.png"></a>
-        <a id="Celtics" class="carousel-item" href="#Celtics!"><img src="./images/NBA_Logos/Celtics.png"></a>
-        <a id="Clippers" class="carousel-item" href="#Clippers!"><img src="./images/NBA_Logos/Clippers.png"></a>
-        <a id="Grizzlies" class="carousel-item" href="#Grizzlies!"><img src="./images/NBA_Logos/Grizzlies.png"></a>
-        <a id="Hawks" class="carousel-item" href="#Hawks!"><img src="./images/NBA_Logos/Hawks.png"></a>
-        <a id="Heat" class="carousel-item" href="#Heat!"><img src="./images/NBA_Logos/Heat.png"></a>
-        <a id="Hornets" class="carousel-item" href="#Hornets!"><img src="./images/NBA_Logos/Hornets.png"></a>
-        <a id="Jazz" class="carousel-item" href="#Jazz!"><img src="./images/NBA_Logos/Jazz.png"></a>
-        <a id="Kings" class="carousel-item" href="#Kings!"><img src="./images/NBA_Logos/Kings.png"></a>
-        <a id="Knicks" class="carousel-item" href="#Knicks!"><img src="./images/NBA_Logos/Knicks.png"></a>
-        <a id="Lakers" class="carousel-item" href="#Lakers!"><img src="./images/NBA_Logos/Lakers.png"></a>
-        <a id="Magic" class="carousel-item" href="#Magic!"><img src="./images/NBA_Logos/Magic.png"></a>
-        <a id="Mavericks" class="carousel-item" href="#Mavericks!"><img src="./images/NBA_Logos/Mavericks.png"></a>
-        <a id="Nets" class="carousel-item" href="#Nets!"><img src="./images/NBA_Logos/Nets.png"></a>
-        <a id="Nuggets" class="carousel-item" href="#Nuggets!"><img src="./images/NBA_Logos/Nuggets.png"></a>
-        <a id="Pacers" class="carousel-item" href="#Pacers!"><img src="./images/NBA_Logos/Pacers.png"></a>
-        <a id="Pelicans" class="carousel-item" href="#Pelicans!"><img src="./images/NBA_Logos/Pelicans.png"></a>
-        <a id="Pistons" class="carousel-item" href="#Pistons!"><img src="./images/NBA_Logos/Pistons.png"></a>
-        <a id="Raptors" class="carousel-item" href="#Raptors!"><img src="./images/NBA_Logos/Raptors.png"></a>
-        <a id="Rockets" class="carousel-item" href="#Rockets!"><img src="./images/NBA_Logos/Rockets.png"></a>
-        <a id="Sixers" class="carousel-item" href="#Sixers!"><img src="./images/NBA_Logos/Sixers.png"></a>
-        <a id="Spurs" class="carousel-item" href="#Spurs!"><img src="./images/NBA_Logos/Spurs.png"></a>
-        <a id="Suns" class="carousel-item" href="#Suns!"><img src="./images/NBA_Logos/Suns.png"></a>
-        <a id="Thunder" class="carousel-item" href="#Thunder!"><img src="./images/NBA_Logos/Thunder.png"></a>
-        <a id="Twolves" class="carousel-item" href="#Twolves!"><img src="./images/NBA_Logos/Twolves.png"></a>
-        <a id="Warriors" class="carousel-item" href="#Warriors!"><img src="./images/NBA_Logos/Warriors.png"></a>
-        <a id="Wizards" class="carousel-item" href="#Wizards!"><img src="./images/NBA_Logos/Wizards.png"></a>
-        <a id="East" class="carousel-item" href="#East!"><img src="./images/NBA_Logos/East.png"></a>
-        <a id="West" class="carousel-item" href="#West!"><img src="./images/NBA_Logos/West.png"></a>
-    </div>
-    <div class="versus">
-      <img  src="./images/NBA_Logos/package.png"> 
-    </div>
-    <div class="carousel" id="homeCarousel">
-        <a id="Blazers" class="carousel-item" href="#Blazers!"><img src="./images/NBA_Logos/Blazers.png"></a>
-        <a id="Bucks" class="carousel-item" href="#Bucks!"><img src="./images/NBA_Logos/Bucks.png"></a>
-        <a id="Bulls" class="carousel-item" href="#Bulls!"><img src="./images/NBA_Logos/Bulls.png"></a>
-        <a id="Cavaliers" class="carousel-item" href="#Cavaliers!"><img src="./images/NBA_Logos/Cavaliers.png"></a>
-        <a id="Celtics" class="carousel-item" href="#Celtics!"><img src="./images/NBA_Logos/Celtics.png"></a>
-        <a id="Clippers" class="carousel-item" href="#Clippers!"><img src="./images/NBA_Logos/Clippers.png"></a>
-        <a id="Grizzlies" class="carousel-item" href="#Grizzlies!"><img src="./images/NBA_Logos/Grizzlies.png"></a>
-        <a id="Hawks" class="carousel-item" href="#Hawks!"><img src="./images/NBA_Logos/Hawks.png"></a>
-        <a id="Heat" class="carousel-item" href="#Heat!"><img src="./images/NBA_Logos/Heat.png"></a>
-        <a id="Hornets" class="carousel-item" href="#Hornets!"><img src="./images/NBA_Logos/Hornets.png"></a>
-        <a id="Jazz" class="carousel-item" href="#Jazz!"><img src="./images/NBA_Logos/Jazz.png"></a>
-        <a id="Kings" class="carousel-item" href="#Kings!"><img src="./images/NBA_Logos/Kings.png"></a>
-        <a id="Knicks" class="carousel-item" href="#Knicks!"><img src="./images/NBA_Logos/Knicks.png"></a>
-        <a id="Lakers" class="carousel-item" href="#Lakers!"><img src="./images/NBA_Logos/Lakers.png"></a>
-        <a id="Magic" class="carousel-item" href="#Magic!"><img src="./images/NBA_Logos/Magic.png"></a>
-        <a id="Mavericks" class="carousel-item" href="#Mavericks!"><img src="./images/NBA_Logos/Mavericks.png"></a>
-        <a id="Nets" class="carousel-item" href="#Nets!"><img src="./images/NBA_Logos/Nets.png"></a>
-        <a id="Nuggets" class="carousel-item" href="#Nuggets!"><img src="./images/NBA_Logos/Nuggets.png"></a>
-        <a id="Pacers" class="carousel-item" href="#Pacers!"><img src="./images/NBA_Logos/Pacers.png"></a>
-        <a id="Pelicans" class="carousel-item" href="#Pelicans!"><img src="./images/NBA_Logos/Pelicans.png"></a>
-        <a id="Pistons" class="carousel-item" href="#Pistons!"><img src="./images/NBA_Logos/Pistons.png"></a>
-        <a id="Raptors" class="carousel-item" href="#Raptors!"><img src="./images/NBA_Logos/Raptors.png"></a>
-        <a id="Rockets" class="carousel-item" href="#Rockets!"><img src="./images/NBA_Logos/Rockets.png"></a>
-        <a id="Sixers" class="carousel-item" href="#Sixers!"><img src="./images/NBA_Logos/Sixers.png"></a>
-        <a id="Spurs" class="carousel-item" href="#Spurs!"><img src="./images/NBA_Logos/Spurs.png"></a>
-        <a id="Suns" class="carousel-item" href="#Suns!"><img src="./images/NBA_Logos/Suns.png"></a>
-        <a id="Thunder" class="carousel-item" href="#Thunder!"><img src="./images/NBA_Logos/Thunder.png"></a>
-        <a id="Twolves" class="carousel-item" href="#Twolves!"><img src="./images/NBA_Logos/Twolves.png"></a>
-        <a id="Warriors" class="carousel-item" href="#Warriors!"><img src="./images/NBA_Logos/Warriors.png"></a>
-        <a id="Wizards" class="carousel-item" href="#Wizards!"><img src="./images/NBA_Logos/Wizards.png"></a>
-        <a id="East" class="carousel-item" href="#East!"><img src="./images/NBA_Logos/East.png"></a>
-        <a id="West" class="carousel-item" href="#West!"><img src="./images/NBA_Logos/West.png"></a>
-    </div>  
-  <!-- </div> -->
-
-  </div>
 </div>

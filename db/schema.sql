@@ -1,11 +1,15 @@
-CREATE DATABASE burgers_db;
+-- CREATE DATABASE champs_db;
 
-USE burgers_db;
+USE nba2_db;
 
-CREATE TABLE burgers (
+CREATE TABLE players (
 	id int AUTO_IMCREMENT,
-	burger_name varchar(255),
-	devoured boolean,
-	date timestamp,
+	player_id VARCHAR(100) NULL,
+	status VARCHAR(10) NULL,
+	player_name VARCHAR(100) NULL,
+	position VARCHAR(10) NULL,
+	primary_position(10) NULL,
+	experience(10) NULL,
+	seasons json,	
 	PRIMARY KEY (id)
 );

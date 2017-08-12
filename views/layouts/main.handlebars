@@ -35,18 +35,27 @@ body {
     background-image: url(../images/nbabackground.jpg);
 }
 
+.carousel {
+  height: 225px;
+  width:300px;
+}
+
 .carousel .carousel-item {
-      width: 175px;
+      width: 35%;
     }
 
 .versus {
     margin: auto;
     text-align: center;
+    width: 10%;
+    margin-left: 14%;
+    margin-bottom: 5%;
 }
 
 .jumbotron {
     background: linear-gradient(#F48328, #046AB4);
     opacity: 20%;
+    padding-top: 2%;
 }
 
     </style>
@@ -63,22 +72,13 @@ body {
 
     $(document).ready(function(){
       $('.carousel').carousel({indicators: false});
-      $('.carousel.carousel-slider').carousel({fullWidth: true});
-
+      $('.carousel.carousel-slider').carousel({fullWidth: false});
+      $('.carousel.carousel-slider').carousel({noWrap: true});
     });
+
     $('.carousel-item').click(function(){
-
     console.log($(this).attr("id"));
-    console.log($(this).parent().attr("id"));
-    console.log($("#homeChip").parent());
-    console.log($("#homeChip").parent("0"));
-    $("#homeChip").attr("src", "NBA_Logos/Blazers.png");
-    $("#homeChip").text("Tim Bynum");
-    console.log($("#homeChip").attr("src"));
-    console.log($("#homeChip").attr("src"));
-
-
-      
+    console.log($(this).parent().attr("id"));      
       if($(this).parent().attr("id") == "awayCarousel" ){
         $("#awayTeamText").text($(this).attr("id"));
       }else{
@@ -86,6 +86,26 @@ body {
       };
 
     });  
+
+    $('#vsImage').click(function(){
+      // console.log($("#winnerText").html(money));
+      // console.log(nbaObject);
+      console.log(teamTwoStr);
+
+
+
+
+
+      // <form action="/" method="POST" class="myTitle">
+      //               <input type="text" name="myTeams">
+      //               <button type="submit">Submit</button>
+      //           </form>
+
+
+
+
+
+    });
 
 
 //   $(this).each(function() {

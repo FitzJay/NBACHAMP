@@ -9,10 +9,12 @@ var expressHandlebars = require("express-handlebars");
 const port = process.env.PORT || 3000;
 const app = express();
 
+app.use(bodyParser.urlencoded({ extended: false }));
+
 require("./controllers/nba_champ.js")(app);
 
 
-app.use(bodyParser.urlencoded({ extended: false }));
+
 
 app.use(methodOverride("_method"));
 
